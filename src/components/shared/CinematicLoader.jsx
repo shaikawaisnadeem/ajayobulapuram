@@ -15,7 +15,7 @@ const CinematicLoader = ({ onComplete }) => {
   }, []);
 
   const name = "AJAY OBULAPURAM";
-  const subtext = "INITIALIZING ZERO-G ENVIRONMENT";
+  const subtext = "FOUNDER & CEO";
 
   // Framer motion variants
   const container = {
