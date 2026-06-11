@@ -43,8 +43,8 @@ const Hero = () => {
           <h2 className="font-headline-md text-headline-md text-secondary mb-6">Founder & CEO of drstudents</h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10">Pioneering India's student-first ecosystem by simplifying medical admissions through technology-driven clarity and unwavering support.</p>
           <div className="flex gap-4">
-            <button className="px-8 py-4 bg-primary text-on-primary rounded-xl font-bold hover:shadow-[0_0_40px_rgba(192,193,255,0.2)] transition-all">View Journey</button>
             <a href="https://drstudents.com" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border border-outline text-on-surface rounded-xl font-bold hover:bg-white/5 transition-all inline-flex items-center justify-center">Explore drstudents</a>
+            <button className="px-8 py-4 bg-primary text-on-primary rounded-xl font-bold hover:shadow-[0_0_40px_rgba(192,193,255,0.2)] transition-all">View Journey</button>
           </div>
         </RevealOnScroll>
 
