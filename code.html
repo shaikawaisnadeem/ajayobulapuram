@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ajay Obulapuram | Founder &amp; Visionary</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://api.fontshare.com/v2/css?f[]=geist@700,600,500,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-on-surface": "#313030",
+                    "surface-container-highest": "#353534",
+                    "tertiary-container": "#e364a7",
+                    "primary-fixed": "#e1e0ff",
+                    "on-secondary-container": "#00424e",
+                    "surface": "#131313",
+                    "surface-container-low": "#1c1b1b",
+                    "secondary": "#4cd7f6",
+                    "surface-container": "#201f1f",
+                    "on-secondary-fixed-variant": "#004e5c",
+                    "primary-fixed-dim": "#c0c1ff",
+                    "surface-dim": "#131313",
+                    "primary-container": "#8083ff",
+                    "on-tertiary-container": "#560038",
+                    "outline-variant": "#464554",
+                    "inverse-primary": "#494bd6",
+                    "on-surface-variant": "#c7c4d7",
+                    "on-secondary-fixed": "#001f26",
+                    "on-primary-fixed": "#07006c",
+                    "background": "#131313",
+                    "tertiary-fixed": "#ffd8e7",
+                    "on-primary": "#1000a9",
+                    "on-primary-container": "#0d0096",
+                    "on-surface": "#e5e2e1",
+                    "tertiary": "#ffafd3",
+                    "on-primary-fixed-variant": "#2f2ebe",
+                    "on-background": "#e5e2e1",
+                    "surface-container-high": "#2a2a2a",
+                    "outline": "#908fa0",
+                    "on-error": "#690005",
+                    "on-tertiary": "#620040",
+                    "error-container": "#93000a",
+                    "on-secondary": "#003640",
+                    "on-tertiary-fixed": "#3d0026",
+                    "secondary-container": "#03b5d3",
+                    "error": "#ffb4ab",
+                    "tertiary-fixed-dim": "#ffafd3",
+                    "surface-bright": "#3a3939",
+                    "inverse-surface": "#e5e2e1",
+                    "surface-variant": "#353534",
+                    "surface-tint": "#c0c1ff",
+                    "on-error-container": "#ffdad6",
+                    "primary": "#c0c1ff",
+                    "secondary-fixed": "#acedff",
+                    "secondary-fixed-dim": "#4cd7f6",
+                    "surface-container-lowest": "#0e0e0e",
+                    "on-tertiary-fixed-variant": "#85145a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "container-max": "1200px",
+                    "section-gap-desktop": "160px",
+                    "section-gap-mobile": "80px",
+                    "base": "8px",
+                    "margin-page": "40px"
+            },
+            "fontFamily": {
+                    "body-md": ["Inter"],
+                    "headline-lg-mobile": ["Geist"],
+                    "label-mono": ["JetBrains Mono"],
+                    "body-lg": ["Inter"],
+                    "headline-lg": ["Geist"],
+                    "display-xl": ["Geist"],
+                    "display-lg": ["Geist"],
+                    "headline-md": ["Geist"]
+            },
+            "fontSize": {
+                    "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "label-mono": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}],
+                    "headline-lg": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "display-xl": ["80px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "1.4", "letterSpacing": "-0.01em", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        @keyframes reveal {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .reveal-on-scroll {
+            opacity: 0;
+            position: relative;
+            z-index: 10;
+        }
+        .reveal-on-scroll.visible {
+            animation: reveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+        }
+        .glass-card {
+            background: rgba(25, 25, 25, 0.4);
+            backdrop-filter: blur(20px);
+            border: 0.5px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 20;
+        }
+        .glass-card:hover {
+            border-color: rgba(192, 193, 255, 0.3);
+            background: rgba(30, 30, 30, 0.6);
+        }
+        .timeline-line {
+            background: linear-gradient(to bottom, transparent, #c0c1ff 20%, #c0c1ff 80%, transparent);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #131313; }
+        ::-webkit-scrollbar-thumb { background: #353534; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #464554; }
+        @keyframes cinematicEntrance { from { opacity: 0; transform: translateY(20px); letter-spacing: 0.1em; } to { opacity: 1; transform: translateY(0); letter-spacing: -0.05em; } }
+        
+        .cursor-glow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            background: radial-gradient(
+                circle 600px at var(--mouse-x, 50%) var(--mouse-y, 50%),
+                rgba(192, 193, 255, 0.1),
+                transparent 80%
+            );
+        }
+</style>
+</head>
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden selection:bg-primary selection:text-on-primary">
+<!-- Interactive Cursor Glow -->
+<div class="cursor-glow"></div>
+<!-- TopNavBar -->
+<nav class="fixed top-6 left-1/2 -translate-x-1/2 w-[calc(100%-48px)] max-w-4xl rounded-full bg-surface/10 dark:bg-surface/10 backdrop-blur-xl border border-white/10 shadow-[0_0_40px_rgba(0,0,0,0.3)] flex justify-between items-center px-8 py-3 z-50">
+<div class="font-headline-md text-headline-md font-bold text-on-surface tracking-tighter">Ajay Obulapuram</div>
+<div class="hidden md:flex gap-8 font-body-md text-body-md">
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#journey">Journey</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#ventures">Ventures</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#students">Students</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#vision">Vision</a>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 rounded-full font-bold scale-95 active:scale-90 transition-transform">Connect</button>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden px-margin-page z-10">
+
+<div class="relative z-10 grid md:grid-cols-2 gap-12 max-w-container-max mx-auto items-center">
+<div class="reveal-on-scroll visible">
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="font-label-mono text-label-mono text-primary px-3 py-1 border border-primary/30 rounded-full">Founder</span>
+<span class="font-label-mono text-label-mono text-primary px-3 py-1 border border-primary/30 rounded-full">Entrepreneur</span>
+<span class="font-label-mono text-label-mono text-primary px-3 py-1 border border-primary/30 rounded-full">Education Innovator</span>
+</div>
+<h1 class="text-[120px] font-bold mb-6 leading-[0.9] tracking-tighter uppercase" style="opacity: 0; transform: translateY(20px); letter-spacing: 0.1em; animation: cinematicEntrance 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;">AJAY OBULAPURAM</h1>
+<h2 class="font-headline-md text-headline-md text-secondary mb-6">Founder &amp; CEO of drstudents</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10">Pioneering India's student-first ecosystem by simplifying medical admissions through technology-driven clarity and unwavering support.</p>
+<div class="flex gap-4">
+<button class="px-8 py-4 bg-primary text-on-primary rounded-xl font-bold hover:shadow-[0_0_40px_rgba(192,193,255,0.2)] transition-all">View Journey</button>
+<button class="px-8 py-4 border border-outline text-on-surface rounded-xl font-bold hover:bg-white/5 transition-all">Explore drstudents</button>
+</div>
+</div>
+<div class="hidden md:block relative h-[500px] reveal-on-scroll visible" style="animation-delay: 0.2s">
+
+<div class="absolute -bottom-4 -right-4 p-6 glass-card rounded-2xl max-w-xs">
+<p class="font-label-mono text-label-mono text-secondary mb-2 uppercase tracking-widest">Live Mission</p>
+<p class="font-body-md text-body-md text-on-surface">Democratizing access to high-tier medical education for every aspirant in India.</p>
+</div>
+</div>
+</div>
+</header>
+<!-- About Section -->
+<section class="py-section-gap-desktop px-margin-page max-w-container-max mx-auto relative z-10" id="mission">
+<div class="grid md:grid-cols-2 gap-20 items-center">
+<div class="reveal-on-scroll visible">
+<h2 class="font-headline-lg text-headline-lg mb-8">The Mission Behind the Movement</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6">drstudents wasn't built in a boardroom; it was born from the struggle of thousands of NEET aspirants facing a fragmented, opaque admission system.</p>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12">
+                    Our focus is singular: simplifying the journey from aspirant to medical professional by providing data-backed tools and expert counseling that replaces anxiety with certainty.
+                </p>
+<div class="grid grid-cols-2 gap-6">
+<div class="p-6 glass-card rounded-2xl">
+<div class="font-display-lg text-display-lg text-primary mb-2" data-counter="1000">1000+</div>
+<p class="font-label-mono text-label-mono uppercase text-on-surface-variant">Medical Colleges</p>
+</div>
+<div class="p-6 glass-card rounded-2xl">
+<div class="font-display-lg text-display-lg text-secondary mb-2" data-counter="50">50k+</div>
+<p class="font-label-mono text-label-mono uppercase text-on-surface-variant">Students Guided</p>
+</div>
+</div>
+</div>
+<div class="relative reveal-on-scroll visible" style="animation-delay: 0.3s">
+<div class="aspect-square rounded-3xl overflow-hidden glass-card p-2">
+<img class="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700" data-alt="A cinematic, high-key shot of a modern medical research lab with blue accent lighting. In the background, a person in a white lab coat is working with futuristic digital displays. The atmosphere is professional, visionary, and high-tech, reflecting the ambition of a healthcare-focused entrepreneur." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBMyn6vI9HcJSXk5cVnSIXMjarXTm0Nax2sRHLjCRP9tkWv13slL9cKL70KWwZ1mN45086j21Sf0LC7VfgV8xrwTu4djiZHgtfFWMl6uXMh85bt6bkH3BGeRpbcjIp1nIFjP8EURY0qHGej1iQ4E_HXmLBhAAM-gvw1vcoMYCJU3osAuO0BUcDJ0-KywTu3NCAHn7DC3wxB3ikjtI3YmRY79bznhGTYHDhGLPjNLb7dLvxo21LeCqa6kzgN9hrlKV0a_c18_UXWTw"/>
+</div>
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="absolute -bottom-10 -right-10 w-40 h-40 bg-secondary/20 blur-3xl rounded-full"></div>
+</div>
+</div>
+</section>
+<!-- Founder Journey Timeline -->
+<section class="py-section-gap-desktop bg-surface-container-lowest relative z-10" id="journey">
+<div class="max-w-container-max mx-auto px-margin-page">
+<div class="text-center mb-24 reveal-on-scroll visible">
+<h2 class="font-display-lg text-display-lg mb-4">Evolution of a Vision</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">The path from identifying the gap to bridging it for an entire nation.</p>
+</div>
+<div class="relative max-w-4xl mx-auto">
+<!-- Vertical Line -->
+<div class="absolute left-1/2 -translate-x-1/2 h-full w-px timeline-line"></div>
+<!-- Timeline Items -->
+<div class="space-y-32">
+<!-- Item 1 -->
+<div class="relative flex items-center justify-center reveal-on-scroll visible">
+<div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary ring-4 ring-primary/20 shadow-[0_0_20px_rgba(192,193,255,0.8)] z-10"></div>
+<div class="grid md:grid-cols-2 w-full gap-20">
+<div class="text-right pr-12 hidden md:block">
+<span class="font-label-mono text-label-mono text-primary bg-primary/10 px-4 py-1 rounded-full">2018</span>
+</div>
+<div class="md:pl-12 pl-8">
+<h3 class="font-headline-md text-headline-md mb-2">Student Discovery</h3>
+<p class="text-on-surface-variant font-body-md">Witnessing the chaotic reality of medical admissions firsthand and realizing that merit wasn't the only hurdle; information was.</p>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="relative flex items-center justify-center reveal-on-scroll visible">
+<div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-secondary ring-4 ring-secondary/20 z-10"></div>
+<div class="grid md:grid-cols-2 w-full gap-20">
+<div class="md:text-right md:pr-12 pl-8 md:pl-0 order-2 md:order-1">
+<h3 class="font-headline-md text-headline-md mb-2">Building DR Students</h3>
+<p class="text-on-surface-variant font-body-md">Laying the foundation of a community-driven platform that puts the student's needs above institutional marketing.</p>
+</div>
+<div class="pl-12 hidden md:block order-1 md:order-2">
+<span class="font-label-mono text-label-mono text-secondary bg-secondary/10 px-4 py-1 rounded-full">2020</span>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="relative flex items-center justify-center reveal-on-scroll visible">
+<div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary ring-4 ring-primary/20 z-10"></div>
+<div class="grid md:grid-cols-2 w-full gap-20">
+<div class="text-right pr-12 hidden md:block">
+<span class="font-label-mono text-label-mono text-primary bg-primary/10 px-4 py-1 rounded-full">2022</span>
+</div>
+<div class="md:pl-12 pl-8">
+<h3 class="font-headline-md text-headline-md mb-2">Scaling the Platform</h3>
+<p class="text-on-surface-variant font-body-md">Transitioning from manual guidance to automated, AI-assisted tools that could serve thousands of students simultaneously.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- DR Students Showcase -->
+<section class="py-section-gap-desktop px-margin-page relative z-10" id="ventures">
+<div class="max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 reveal-on-scroll visible">
+<div>
+<h2 class="font-display-lg text-display-lg mb-4">The drstudents Ecosystem</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Intelligent tools designed to make the medical admission journey predictable and stress-free.</p>
+</div>
+<button class="mb-2 text-primary font-bold flex items-center gap-2 group">
+                    View All Products <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Product Card 1 -->
+<div class="p-8 glass-card rounded-3xl flex flex-col h-full reveal-on-scroll visible" style="animation-delay: 0.1s">
+<div class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">psychology</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">AI Admission Assistant</h3>
+<p class="text-on-surface-variant text-body-md mb-8 flex-grow">Smart chatbots and predictive modeling to answer every 'what-if' for aspirants.</p>
+<div class="pt-6 border-t border-white/5">
+<span class="font-label-mono text-label-mono text-secondary">LIVE NOW</span>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="p-8 glass-card rounded-3xl flex flex-col h-full reveal-on-scroll visible" style="animation-delay: 0.2s">
+<div class="w-12 h-12 rounded-xl bg-secondary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">analytics</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">College Predictor</h3>
+<p class="text-on-surface-variant text-body-md mb-8 flex-grow">Highly accurate rank-to-college matching based on years of historical cut-off data.</p>
+<div class="pt-6 border-t border-white/5">
+<span class="font-label-mono text-label-mono text-secondary">DATA DRIVEN</span>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="p-8 glass-card rounded-3xl flex flex-col h-full reveal-on-scroll visible" style="animation-delay: 0.3s">
+<div class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">explore</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Medical Explorer</h3>
+<p class="text-on-surface-variant text-body-md mb-8 flex-grow">Virtual tours, alumni reviews, and fee structures for over 1000+ institutions.</p>
+<div class="pt-6 border-t border-white/5">
+<span class="font-label-mono text-label-mono text-secondary">VIRTUAL</span>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="p-8 glass-card rounded-3xl flex flex-col h-full reveal-on-scroll visible" style="animation-delay: 0.4s">
+<div class="w-12 h-12 rounded-xl bg-secondary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Counseling Platform</h3>
+<p class="text-on-surface-variant text-body-md mb-8 flex-grow">End-to-end management of the counseling process with expert human-in-the-loop.</p>
+<div class="pt-6 border-t border-white/5">
+<span class="font-label-mono text-label-mono text-secondary">HYBRID</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Achievements Section -->
+<section class="py-section-gap-desktop bg-surface-container-high overflow-hidden relative z-10">
+<div class="absolute inset-0 bg-primary/5 blur-[100px] rounded-full scale-150"></div>
+<div class="max-w-container-max mx-auto px-margin-page relative z-10 text-center">
+<h2 class="font-label-mono text-label-mono text-primary uppercase tracking-[0.3em] mb-12">The Impact in Numbers</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12">
+<div class="reveal-on-scroll visible">
+<div class="font-display-xl text-display-xl text-on-surface mb-2">10k+</div>
+<p class="font-body-md text-on-surface-variant">Sessions Conducted</p>
+</div>
+<div class="reveal-on-scroll visible" style="animation-delay: 0.1s">
+<div class="font-display-xl text-display-xl text-on-surface mb-2">98%</div>
+<p class="font-body-md text-on-surface-variant">Success Rate</p>
+</div>
+<div class="reveal-on-scroll visible" style="animation-delay: 0.2s">
+<div class="font-display-xl text-display-xl text-on-surface mb-2">500+</div>
+<p class="font-body-md text-on-surface-variant">Active Experts</p>
+</div>
+<div class="reveal-on-scroll visible" style="animation-delay: 0.3s">
+<div class="font-display-xl text-display-xl text-on-surface mb-2">300%</div>
+<p class="font-body-md text-on-surface-variant">Annual Growth</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Vision Section -->
+<section class="py-section-gap-desktop px-margin-page relative z-10" id="vision">
+<div class="max-w-4xl mx-auto text-center reveal-on-scroll visible">
+<h2 class="font-display-lg text-display-lg mb-12 leading-tight">
+                Building The Future Of <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Medical Admissions</span>
+</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-16 leading-relaxed">
+                The future is not just about getting a seat; it's about the right fit. We are integrating behavioral AI to help students discover specializations early, while expanding our ecosystem to cover the entire lifecycle of a medical student—from admission to residency.
+            </p>
+<div class="aspect-video rounded-3xl overflow-hidden glass-card relative group">
+<div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-60 z-10"></div>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" data-alt="A futuristic data visualization dashboard showing complex networks and medical nodes floating in a dark space. The style is inspired by premium software interfaces with thin glowing lines, deep purple and cyan accents, and high-contrast typography. It represents the AI-driven future of education counseling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBg8cB16oXTk2RsIjsoCqOKZVckRKZ2l--RRvzXmCN3GOrZffThxYNDTaPPt_biTX4axp8Z22IOCL6NHjxl4_JFY2ElztrXRjcKsIswT-prL5TflpN2Xcw7ZNjorJsOimgpzk_iecsbnPKAfP1zr1ZeC5f1F2CpGxIoO7Lh-Ls-__uR03eoHguiUSdvPN9HUa5h6NKx0STtWGbmEIZZEwJc_jyPjSsM2HiwlRrMIl-Mw139mufXZRWjbfU-keQ6hx6jRBcMEj2CVEs"/>
+<div class="absolute inset-0 flex items-center justify-center z-20">
+<button class="w-20 h-20 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl text-white">play_arrow</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-section-gap-desktop bg-surface-container-low relative z-10" id="students">
+<div class="max-w-container-max mx-auto px-margin-page">
+<h2 class="font-headline-lg text-headline-lg mb-16 text-center reveal-on-scroll visible">Voices of the Future Doctors</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="p-8 glass-card rounded-3xl reveal-on-scroll visible" style="animation-delay: 0.1s">
+<div class="flex gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md italic text-on-surface mb-8">"I was lost in the cut-off calculations. drstudents gave me the roadmap I needed to secure my dream seat."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20"></div>
+<div>
+<p class="font-bold">Rahul V.</p>
+<p class="text-xs text-on-surface-variant font-label-mono">AIIMS ASPIRANT</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="p-8 glass-card rounded-3xl reveal-on-scroll visible" style="animation-delay: 0.2s">
+<div class="flex gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md italic text-on-surface mb-8">"The college predictor is shockingly accurate. It saved me weeks of manual research and stress."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20"></div>
+<div>
+<p class="font-bold">Sruthi K.</p>
+<p class="text-xs text-on-surface-variant font-label-mono">MBBS STUDENT</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="p-8 glass-card rounded-3xl reveal-on-scroll visible" style="animation-delay: 0.3s">
+<div class="flex gap-1 text-secondary mb-4">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md italic text-on-surface mb-8">"Finally, a platform that doesn't feel like a sales pitch. Honest, transparent, and student-focused."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/20"></div>
+<div>
+<p class="font-bold">Aman S.</p>
+<p class="text-xs text-on-surface-variant font-label-mono">NEET 2024 CANDIDATE</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-section-gap-desktop px-margin-page relative overflow-hidden z-10" id="contact">
+<div class="absolute -bottom-20 -left-20 w-96 h-96 bg-primary/10 blur-[150px] rounded-full"></div>
+<div class="max-w-4xl mx-auto text-center reveal-on-scroll relative z-10 visible">
+<h2 class="font-display-lg text-display-lg mb-6">Let's Build Something Meaningful</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12">Whether you're a potential partner, a student in need, or someone passionate about EdTech—I'm always open to a conversation.</p>
+<div class="flex flex-wrap justify-center gap-6">
+<button class="flex items-center gap-3 px-8 py-4 glass-card rounded-2xl hover:text-primary transition-all">
+<span class="material-symbols-outlined">mail</span> Email Me
+                </button>
+<button class="flex items-center gap-3 px-8 py-4 glass-card rounded-2xl hover:text-primary transition-all">
+<span class="material-symbols-outlined">link</span> LinkedIn
+                </button>
+<button class="flex items-center gap-3 px-8 py-4 bg-primary text-on-primary rounded-2xl font-bold shadow-lg hover:scale-105 transition-transform">
+<span class="material-symbols-outlined">calendar_today</span> Schedule Meeting
+                </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full rounded-none border-t border-outline-variant/30 bg-surface dark:bg-surface flex flex-col gap-gutter px-margin-page py-section-gap-desktop max-w-container-max mx-auto relative z-10">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+<div class="font-display-lg text-display-lg font-bold text-on-surface">Ajay Obulapuram</div>
+<div class="flex gap-8">
+<a class="text-on-surface-variant font-body-lg hover:text-secondary hover:translate-x-1 transition-all duration-300" href="#">LinkedIn</a>
+<a class="text-on-surface-variant font-body-lg hover:text-secondary hover:translate-x-1 transition-all duration-300" href="#">Twitter</a>
+<a class="text-on-surface-variant font-body-lg hover:text-secondary hover:translate-x-1 transition-all duration-300" href="#">Email</a>
+<a class="text-on-surface-variant font-body-lg hover:text-secondary hover:translate-x-1 transition-all duration-300" href="#">Manifesto</a>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-on-surface-variant/60 font-body-md">
+<p class="">© 2024 Ajay Obulapuram. Precision engineered for impact.</p>
+<p class="font-label-mono text-xs uppercase tracking-widest">Designed for Excellence</p>
+</div>
+</footer>
+<script>
+        // Interactive Cursor Glow Logic
+        window.addEventListener('mousemove', (e) => {
+            document.body.style.setProperty('--mouse-x', `${e.clientX}px`);
+            document.body.style.setProperty('--mouse-y', `${e.clientY}px`);
+        });
+
+        // Reveal On Scroll Logic
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Background Atmospheric Parallax
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            document.querySelectorAll('webgl-shader').forEach(shader => {
+                shader.style.transform = `translateY(${scrolled * 0.15}px)`;
+            });
+        });
+    </script>
+</body></html>
