@@ -20,13 +20,13 @@ const Initiatives = () => {
               State-Wide Program
             </span>
             <h3 className="font-headline-lg text-headline-lg mb-6 leading-tight">
-              Telangana Career Guidance Initiative
+              Andhra Pradesh Career Guidance Initiative
             </h3>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
-              In parallel to our digital ecosystem, a large-scale career guidance and student counselling program is currently being implemented across Telangana. Through direct school outreach, career awareness workshops, and one-on-one counselling support, we are empowering school students to navigate their future.
+              A large-scale career guidance and student counselling program currently being implemented across Andhra Pradesh. Through direct school outreach, career awareness workshops, and one-on-one counselling support, we are empowering school students to navigate their future.
             </p>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-10 leading-relaxed">
-              We focus on students from <strong>Classes 8–10</strong>, helping them lay a strong foundation and make well-informed decisions about their academic streams and long-term career journeys.
+              We focus on students from <strong>Classes 8–10</strong>, helping them lay a strong foundation and make well-informed decisions about their academic streams and long-term career journeys, with future expansion planned for Telangana.
             </p>
             
             {/* Quick Metrics */}

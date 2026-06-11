@@ -18,7 +18,7 @@ const Journey = () => {
     {
       year: "2025",
       title: "Community & Trust",
-      description: "Trusted by 5,000+ students & parents across AP & Telangana, with a community of 70,000+ followers.",
+      description: "Trusted by 5,000+ students & parents across Andhra Pradesh, building a community of 70,000+ followers, followed by expansion to Telangana.",
       color: "primary",
     },
     {
