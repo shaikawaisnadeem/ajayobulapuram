@@ -7,6 +7,7 @@ import Hero from './components/sections/Hero';
 import Mission from './components/sections/Mission';
 import Journey from './components/sections/Journey';
 import Ventures from './components/sections/Ventures';
+import Initiatives from './components/sections/Initiatives';
 import Impact from './components/sections/Impact';
 import Vision from './components/sections/Vision';
 import Voices from './components/sections/Voices';
@@ -41,6 +42,9 @@ const App = () => {
 
           {/* DR Students Showcase */}
           <Ventures />
+
+          {/* Ongoing Initiatives */}
+          <Initiatives />
 
           {/* Achievements Section */}
           <Impact />
