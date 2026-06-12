@@ -101,3 +101,24 @@
   animation: pulse-slower 20s ease-in-out infinite;
 }
 
+/* Responsive Fluid Typography Clamps for Mobile Safety (prevents overflowing viewport) */
+@media (max-width: 768px) {
+  .text-display-xl {
+    font-size: clamp(34px, 10vw, 56px) !important;
+  }
+  .text-display-lg {
+    font-size: clamp(28px, 8vw, 48px) !important;
+  }
+  .text-headline-lg {
+    font-size: clamp(24px, 7vw, 36px) !important;
+  }
+  .text-headline-md {
+    font-size: clamp(18px, 6vw, 22px) !important;
+  }
+  .px-margin-page {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
+
+

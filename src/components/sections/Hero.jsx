@@ -5,7 +5,7 @@ import ZeroGElement from '../shared/ZeroGElement';
 
 const Hero = () => {
   return (
-    <header className="relative min-h-0 md:min-h-screen flex items-start md:items-center justify-center pt-32 md:pt-24 pb-16 md:pb-0 overflow-hidden px-margin-page z-10">
+    <header className="relative min-h-0 md:min-h-screen flex items-start md:items-center justify-center pt-32 md:pt-24 pb-16 md:pb-0 overflow-hidden px-6 md:px-margin-page z-10">
       <div className="relative z-10 grid md:grid-cols-2 gap-12 max-w-container-max mx-auto items-center w-full">
         <RevealOnScroll>
           <div className="flex flex-wrap gap-2 mb-6">
@@ -20,7 +20,7 @@ const Hero = () => {
             }}
             initial="hidden"
             animate="show"
-            className="text-[7.5vw] sm:text-[7vw] md:text-[80px] lg:text-[110px] font-bold mb-6 leading-[0.9] tracking-tighter uppercase flex flex-col md:flex-row md:flex-wrap perspective-[1000px] w-full"
+            className="text-[clamp(32px,7.5vw,110px)] font-bold mb-6 leading-[0.9] tracking-tighter uppercase flex flex-col md:flex-row md:flex-wrap perspective-[1000px] w-full"
           >
             {"AJAY OBULAPURAM".split(' ').map((word, wordIdx) => (
               <div key={wordIdx} className="flex mr-3 sm:mr-4 md:mr-6 pb-2 md:pb-4 whitespace-nowrap">

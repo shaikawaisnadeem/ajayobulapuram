@@ -79,7 +79,7 @@ const CinematicLoader = ({ onComplete }) => {
                     <span key={charIdx} className="overflow-hidden inline-flex">
                       <motion.span 
                         variants={item}
-                        className="text-[7.5vw] sm:text-[7vw] md:text-[80px] lg:text-[110px] leading-[0.9] tracking-tighter inline-block origin-bottom"
+                        className="text-[clamp(32px,7.5vw,110px)] leading-[0.9] tracking-tighter inline-block origin-bottom"
                       >
                         {char}
                       </motion.span>
