@@ -4,7 +4,7 @@ import ZeroGElement from '../shared/ZeroGElement';
 
 const Initiatives = () => {
   return (
-    <section className="py-section-gap-desktop px-margin-page max-w-container-max mx-auto relative z-10" id="initiatives">
+    <section className="py-section-gap-mobile md:py-section-gap-desktop px-margin-page max-w-container-max mx-auto relative z-10" id="initiatives">
       <RevealOnScroll className="mb-16 text-center">
         <h2 className="font-display-lg text-display-lg mb-4">Ongoing Initiatives</h2>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
@@ -17,10 +17,10 @@ const Initiatives = () => {
         <div className="md:col-span-7">
           <RevealOnScroll>
             <span className="font-label-mono text-label-mono text-primary bg-primary/10 px-4 py-1 rounded-full mb-6 inline-block uppercase tracking-wider">
-              State-Wide Program
+              Govt. of Andhra Pradesh Partnership
             </span>
             <h3 className="font-headline-lg text-headline-lg mb-6 leading-tight">
-              Andhra Pradesh Career Guidance Initiative
+              Andhra Pradesh State Career Guidance & Counselling Program
             </h3>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
               A large-scale career guidance and student counselling program currently being implemented across Andhra Pradesh. Through direct school outreach, career awareness workshops, and one-on-one counselling support, we are empowering school students to navigate their future.
@@ -30,7 +30,7 @@ const Initiatives = () => {
             </p>
             
             {/* Quick Metrics */}
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="p-4 glass-card rounded-2xl">
                 <div className="font-headline-lg text-headline-lg text-primary mb-1">50+</div>
                 <p className="text-xs font-label-mono text-on-surface-variant uppercase">Counsellors</p>

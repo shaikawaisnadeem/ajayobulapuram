@@ -4,7 +4,7 @@ import ZeroGElement from '../shared/ZeroGElement';
 
 const Mission = () => {
   return (
-    <section className="py-section-gap-desktop px-margin-page max-w-container-max mx-auto relative z-10" id="mission">
+    <section className="py-section-gap-mobile md:py-section-gap-desktop px-margin-page max-w-container-max mx-auto relative z-10" id="mission">
       <div className="grid md:grid-cols-2 gap-20 items-center">
         <RevealOnScroll>
           <h2 className="font-headline-lg text-headline-lg mb-8">The Mission Behind the Movement</h2>
@@ -12,7 +12,7 @@ const Mission = () => {
           <p className="font-body-lg text-body-lg text-on-surface-variant mb-12">
             Our focus is singular: simplifying the journey from aspirant to medical professional by providing data-backed tools and expert counseling that replaces anxiety with certainty.
           </p>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="p-6 glass-card rounded-2xl">
               <div className="font-display-lg text-display-lg text-primary mb-2">1000+</div>
               <p className="font-label-mono text-label-mono uppercase text-on-surface-variant">Medical Colleges</p>

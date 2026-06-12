@@ -3,7 +3,7 @@ import RevealOnScroll from '../shared/RevealOnScroll';
 
 const Voices = () => {
   return (
-    <section className="py-section-gap-desktop bg-surface-container-low relative z-10" id="students">
+    <section className="py-section-gap-mobile md:py-section-gap-desktop bg-surface-container-low relative z-10" id="students">
       <div className="max-w-container-max mx-auto px-margin-page">
         <RevealOnScroll className="font-headline-lg text-headline-lg mb-16 text-center">
           <h2>Voices of the Future Doctors</h2>

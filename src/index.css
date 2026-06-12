@@ -81,3 +81,23 @@
 ::-webkit-scrollbar-thumb:hover { 
     background: #464554; 
 }
+
+/* Custom keyframes for performance gradient backgrounds */
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.3; transform: scale(1) translate(0px, 0px); }
+  50% { opacity: 0.5; transform: scale(1.15) translate(20px, -30px); }
+}
+
+@keyframes pulse-slower {
+  0%, 100% { opacity: 0.2; transform: scale(1) translate(0px, 0px); }
+  50% { opacity: 0.4; transform: scale(1.08) translate(-20px, 30px); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 15s ease-in-out infinite;
+}
+
+.animate-pulse-slower {
+  animation: pulse-slower 20s ease-in-out infinite;
+}
+

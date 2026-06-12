@@ -4,7 +4,7 @@ import VisionCore3D from './VisionCore3D';
 
 const Vision = () => {
   return (
-    <section className="py-section-gap-desktop px-margin-page relative z-10" id="vision">
+    <section className="py-section-gap-mobile md:py-section-gap-desktop px-margin-page relative z-10" id="vision">
       <RevealOnScroll className="max-w-4xl mx-auto text-center">
         <h2 className="font-display-lg text-display-lg mb-12 leading-tight">
           Building The Future Of <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Medical Admissions</span>

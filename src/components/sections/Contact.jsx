@@ -4,7 +4,7 @@ import ZeroGElement from '../shared/ZeroGElement';
 
 const Contact = () => {
   return (
-    <section className="py-section-gap-desktop px-margin-page relative overflow-hidden z-10" id="contact">
+    <section className="py-section-gap-mobile md:py-section-gap-desktop px-margin-page relative overflow-hidden z-10" id="contact">
       <ZeroGElement speed={0.05} className="absolute -bottom-20 -left-20 z-0" driftDuration="25s">
         <div className="w-96 h-96 bg-primary/10 blur-[150px] rounded-full"></div>
       </ZeroGElement>

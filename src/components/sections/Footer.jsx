@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="w-full rounded-none border-t border-outline-variant/30 bg-surface dark:bg-surface flex flex-col gap-gutter px-margin-page py-section-gap-desktop max-w-container-max mx-auto relative z-10">
+    <footer className="w-full rounded-none border-t border-outline-variant/30 bg-surface dark:bg-surface flex flex-col gap-gutter px-margin-page py-section-gap-mobile md:py-section-gap-desktop max-w-container-max mx-auto relative z-10">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div className="font-display-lg text-display-lg font-bold text-on-surface">Ajay Obulapuram</div>
         <div className="flex gap-8">

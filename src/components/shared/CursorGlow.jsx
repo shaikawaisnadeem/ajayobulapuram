@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { usePerformance } from '../../hooks/usePerformance';
 
 const CursorGlow = () => {
+  const { isTouchDevice } = usePerformance();
   const [position, setPosition] = useState({ x: '50%', y: '50%' });
 
   useEffect(() => {
+    if (isTouchDevice) return;
+
     const handleMouseMove = (e) => {
       setPosition({ x: `${e.clientX}px`, y: `${e.clientY}px` });
     };
@@ -13,7 +17,9 @@ const CursorGlow = () => {
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
-  }, []);
+  }, [isTouchDevice]);
+
+  if (isTouchDevice) return null;
 
   return (
     <div 
@@ -26,3 +32,4 @@ const CursorGlow = () => {
 };
 
 export default CursorGlow;
+

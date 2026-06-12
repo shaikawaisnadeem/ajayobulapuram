@@ -30,7 +30,7 @@ const Journey = () => {
   ];
 
   return (
-    <section className="py-section-gap-desktop bg-surface-container-lowest relative z-10" id="journey">
+    <section className="py-section-gap-mobile md:py-section-gap-desktop bg-surface-container-lowest relative z-10" id="journey">
       <div className="max-w-container-max mx-auto px-margin-page">
         <RevealOnScroll className="text-center mb-24">
           <h2 className="font-display-lg text-display-lg mb-4">Evolution of a Vision</h2>

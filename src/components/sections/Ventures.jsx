@@ -11,7 +11,7 @@ const Ventures = () => {
   ];
 
   return (
-    <section className="py-section-gap-desktop px-margin-page relative z-10" id="ventures">
+    <section className="py-section-gap-mobile md:py-section-gap-desktop px-margin-page relative z-10" id="ventures">
       <div className="max-w-container-max mx-auto">
         <RevealOnScroll className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div>
